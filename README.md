@@ -19,6 +19,7 @@ Corrections, fixes, issue reports and optimizations are always welcome.
 - `OPTM`: Specify the optimization flags, e.g.: `-O3`, `-Os` or `-Og -ggdb`.
 
 ```bash
+git clone --recurse-submodules https://github.com/leonkasovan/gmloader-next.git
 make -f Makefile.gmloader ARCH=aarch64-linux-gnu
 ```
 
